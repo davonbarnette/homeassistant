@@ -1,0 +1,3 @@
+WORKDIR /config
+COPY config .
+EXPOSE 8132
