@@ -17,10 +17,11 @@ So now, you can wrap Application 1 in a Docker container that has `npm v6`, and 
 
 But Docker's value doesn't stop there. Docker containers are actually built from a set of *instructions* called a **Docker image**.
 In our example above, under normal circumstances, you'd need to get into that first container or "mini-computer" and install `npm v6`, and the same for the other container.
-However, using Docker images, we can essentially build blueprints of how we want our Docker container to look when it starts.
+However, using Docker images, we can essentially build blueprints of how we want our Docker container to look when it starts, so that we can easily create those containers again if need be.
 
 So we can create our *Docker image* `npm-container-v6` to automatically install `npm v6` on container creation. Then run something like `docker run npm-container-v6`, and we
-have a mini-computer with `npm v6` installed!
+have a mini-computer with `npm v6` installed. And if we needed to build another application that also uses `npm v6`, we just spin it up in another container using
+the `npm-container-v6` image we built earlier. We're essentially "componentizing" everything so that we can use it as many times as we want, wherever we want.
 
 ### Why is this useful for Home Assistant?
 
