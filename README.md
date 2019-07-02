@@ -1,9 +1,9 @@
-#HomeAssistant Automation
+# HomeAssistant Automation
 
 This repo is a for-the-bois repository to help you all leverage docker and docker-compose to create a home automation server.
 For the most part, this is just a device registry, but we'll be adding more things as we go along. Please read all of this before continuing or trying on your own.
 
-###What is Docker?
+### What is Docker?
 Docker is a platform that allows you to create Docker containers. You can think of a **Docker container** as a mini-computer that is isolated from all the noise and restrictions on the host OS.
 That probably sounds like complicated bullshit, but let's take a look at a practical example.
 
