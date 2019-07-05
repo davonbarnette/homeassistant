@@ -1,0 +1,6 @@
+longitude: !secret home_lng
+latitude: !secret home_lat
+elevation: 0
+unit_system: imperial
+time_zone: !secret timezone
+name: Home

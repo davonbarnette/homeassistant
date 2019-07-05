@@ -1,0 +1,12 @@
+- title: Dashboard
+  cards:
+    - type: horizontal-stack
+      cards:
+        - type: light
+          entity: light.living_room
+        - type: light
+          entity: light.bedroom
+    - type: entity-button
+      entity: lock.front_door
+    - type: weather-forecast
+      entity: weather.dark_sky

@@ -1,0 +1,4 @@
+bridges:
+  # You'll need to change the host below to your Hue bridge's internal IP Address at:
+  # https://www.meethue.com/api/nupnp [{"internalipaddress":"192.168.1.65"}]
+  - host: 192.168.1.65

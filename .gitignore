@@ -4,3 +4,5 @@
 .uuid
 home-assistant_v2.db
 *.storage
+secrets.yaml
+.august.conf

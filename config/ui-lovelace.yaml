@@ -1,7 +1,2 @@
 title: Davon & Meghan's Home
-views:
-  - title: Example
-    theme: dark-mode
-    cards:
-      - type: light
-        entity: light.lightstrip_kitchen
+views: !include_dir_merge_list lovelace/views

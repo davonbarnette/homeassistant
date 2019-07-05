@@ -1,0 +1,14 @@
+- title: Lights
+  cards:
+    - type: light
+      entity: light.lightstrip_kitchen
+    - type: light
+      entity: light.living_room_tv_left
+    - type: light
+      entity: light.bedroom_right
+    - type: light
+      entity: light.fog_horn
+    - type: light
+      entity: light.living_room
+    - type: light
+      entity: light.bedroom
